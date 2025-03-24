@@ -1,0 +1,52 @@
+body{
+    background-color: lightblue;
+}
+nav{ 
+    position: sticky;
+    top: 0;
+    background-color: lightcoral;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+}
+nav a{
+text-decoration: none;
+color: darkred;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.content{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#home {
+    background-image: url("../Images/atlanta.jpg");
+}
+
+#activities {
+    background-image: url("../Images/aquarium.jpg");
+}
+
+#sights {
+    background-image: url("../Images/garden.jpg");
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    background-color: lightcoral;
+    justify-items: center;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+}
+
